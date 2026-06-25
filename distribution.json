@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "YOUR_DISCORD_APP_ID",
+    "smallImageText": "RustMC",
+    "smallImageKey": "icon"
+  },
+  "servers": [
+    {
+      "id": "RustMC-1.16.5",
+      "name": "RustMC (Minecraft 1.16.5)",
+      "description": "Rust-like survival on Minecraft 1.16.5 with Forge",
+      "icon": "https://raw.githubusercontent.com/twu17054-crypto/rustmc-distro/main/icon.png",
+      "version": "1.0.0",
+      "address": "YOUR_SERVER_IP:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "RustMC",
+        "largeImageKey": "icon",
+        "largeImageText": "RustMC 1.16.5"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.42:universal",
+          "name": "Minecraft Forge 1.16.5-36.2.42",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 2540080,
+            "MD5": "d5b89861a4e02bab15a111d529d99d86",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-forge-36.2.42",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13582,
+                "MD5": "63dc1a9a3485ca3f4dd92ae4958c6c64",
+                "url": "https://raw.githubusercontent.com/twu17054-crypto/rustmc-distro/main/forge-1.16.5-36.2.42-version.json"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
