@@ -42,8 +42,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13582,
-                "MD5": "63dc1a9a3485ca3f4dd92ae4958c6c64",
+                "size": 13581,
+                "MD5": "acc814ffe21b6a5a0cf94398357bcd5d",
                 "url": "https://raw.githubusercontent.com/twu17054-crypto/rustmc-distro/main/forge-1.16.5-36.2.42-version.json"
               }
             }
