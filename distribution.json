@@ -9,11 +9,16 @@
     {
       "id": "RustMC-1.16.5",
       "name": "RustMC",
-      "description": "Rust-like survival on Minecraft 1.16.5 with Forge",
+      "description": "Rust-like survival server",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
       "version": "1.0.0",
       "address": "YOUR_SERVER_IP:25565",
       "minecraftVersion": "1.16.5",
+      "javaOptions": {
+        "supported": "11.x.x || 17.x.x || 21.x.x",
+        "suggestedMajor": 17,
+        "distribution": "OpenJDK"
+      },
       "discord": {
         "shortId": "RustMC",
         "largeImageKey": "icon",
